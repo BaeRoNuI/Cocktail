@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>제정신은 건강에 해로워</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=459fb9bc6590a7d8a615ae9facd2548d&libraries=services"></script>
+        <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type= "module" src="findBar.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href = "index.html">제정신은 건강에 해로워</a>
+            <img id = "sidebar_button" src="" height = "50" width = "50" alt = "bugger_icon">
+        </header>
+        <aside class = "sidebar" id = "sidebar">
+            <div id = "aside_cover">
+            </div>
+            <a class ="aside_content" href="index.html">
+                메인 화면으로 돌아가기
+            </a>
+            <a class ="aside_content" href = "recommend.html">
+                나만의 칵테일 추천 받기
+            </a>
+            <a class ="aside_content" href = "home_cocktail.html">
+                홈 칵테일 추천 받기
+            </a>
+
+            <div id = ""></div>
+        </aside>
+        <main>
+            <p style="text-align : center;">
+                내 주위 칵테일바 찾기
+            </p>
+            <div id="map"></div>
+        </main>
+
+
+
+        <footer>
+            <hr>
+            Internet Programming team project <br>
+            적당한 음주는 정신건강에 좋습니다. (검증 안됨)
+        </footer>
+    </body>
+</html>

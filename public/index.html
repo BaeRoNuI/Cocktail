@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset = "utf-8">
+        <title>제정신은 건강에 해로워</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src = "https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href = "index.html">제정신은 건강에 해로워</a>
+            <img id = "sidebar_button" src="" height = "50" width = "50" alt = "bugger_icon">
+        </header>
+
+        <aside class = "sidebar" id = "sidebar">
+            <div id = "aside_cover">
+            </div>
+            <a class ="aside_content" href = "findBar.html">
+                주위에 있는 칵테일 바 찾기
+            </a>
+            <a class ="aside_content" href = "home_cocktail.html">
+                홈 칵테일 추천 받기
+            </a>
+            <a class ="aside_content" href = "recommend.html">
+                나만의 칵테일 추천 받기
+            </a>
+            <div id = ""></div>
+        </aside>
+        <main>
+            <div class = "today_cocktail" id = "today_cocktail">
+                <h2>
+                    Today's Cocktail
+                </h2>
+                <img id = "today_cocktail_img" src = "" alt = "cocktail_img">
+                <div id = "today_cocktail_name"></div>
+            </div>
+
+            <div id = "today_cocktail_detail">
+                <div id = "detail_head"></div>
+                <img id = "detail_img">
+                <div id = "detail_korname"></div>
+                <div id = "detail_alco"></div>
+                <div id = "detail_comment"></div>
+                <div id = "detail_recipe"></div>
+                <div id = "kakao_button">
+                    <img src = "./img/kakao.png" alt = "kakao" style = "width : 30px; height : 30px;">
+                </div>
+            </div>
+
+            <a class = "my_cocktail" href = "recommend.html" >
+                <h2>
+                    나만의 칵테일 추천 받기
+                </h2>
+            </a>
+        </main>
+
+        <footer>
+            <hr>
+            Internet Programming team project <br>
+            적당한 음주는 정신건강에 좋습니다. (검증 안됨)
+        </footer>
+    </body>
+</html>
